@@ -1,0 +1,35 @@
+2025-10-28 09:17:40,743 - ERROR - 浏览器初始化失败: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+2025-10-28 09:17:40,744 - INFO - 开始深度分析目标网站...
+2025-10-28 09:17:40,744 - INFO - === 基础网站分析 ===
+2025-10-28 09:17:41,667 - INFO - 网站状态码: 200
+2025-10-28 09:17:41,668 - INFO - 内容类型: text/html; charset=utf-8
+2025-10-28 09:17:41,668 - INFO - 页面大小: 473 字节
+2025-10-28 09:17:41,668 - INFO - 页面内容已保存到 website_content.html
+2025-10-28 09:17:41,669 - INFO - === HTML结构分析 ===
+2025-10-28 09:17:41,669 - INFO - <title> 标签数量: 1
+2025-10-28 09:17:41,669 - INFO - <meta> 标签数量: 3
+2025-10-28 09:17:41,669 - INFO - <script> 标签数量: 1
+2025-10-28 09:17:41,670 - INFO - <link> 标签数量: 2
+2025-10-28 09:17:41,670 - INFO - <a> 标签数量: 0
+2025-10-28 09:17:41,670 - INFO - <div> 标签数量: 1
+2025-10-28 09:17:41,671 - INFO - <span> 标签数量: 0
+2025-10-28 09:17:41,671 - INFO - <table> 标签数量: 0
+2025-10-28 09:17:41,671 - INFO - <form> 标签数量: 0
+2025-10-28 09:17:41,672 - INFO - <input> 标签数量: 0
+2025-10-28 09:17:41,672 - INFO - <button> 标签数量: 0
+2025-10-28 09:17:41,672 - INFO - React 框架特征: ✗ 不存在
+2025-10-28 09:17:41,672 - INFO - Vue 框架特征: ✗ 不存在
+2025-10-28 09:17:41,672 - INFO - Angular 框架特征: ✗ 不存在
+2025-10-28 09:17:41,672 - INFO - jQuery 框架特征: ✗ 不存在
+2025-10-28 09:17:41,673 - INFO - SPA 框架特征: ✗ 不存在
+2025-10-28 09:17:41,675 - INFO - === 网络请求分析 ===
+2025-10-28 09:17:42,062 - INFO - https://ydydj.univsport.com/api/ - 状态码: 200
+2025-10-28 09:17:47,613 - WARNING - Selenium不可用，跳过深度分析
+2025-10-28 09:17:47,614 - INFO - 深度分析完成！
+2025-10-28 09:17:47,614 - INFO - 生成的文件:
+2025-10-28 09:17:47,614 - INFO -   - website_content.html: 基础页面内容
+2025-10-28 09:17:47,614 - INFO -   - page_screenshot.png: 页面截图
+2025-10-28 09:17:47,614 - INFO -   - selenium_page_source.html: Selenium获取的页面源码
+2025-10-28 09:17:47,614 - INFO -   - dynamic_analysis.json: 动态内容分析结果
+2025-10-28 09:17:47,615 - INFO -   - debug.log: 详细日志

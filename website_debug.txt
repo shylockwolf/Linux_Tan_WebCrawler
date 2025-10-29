@@ -1,0 +1,36 @@
+============================================================
+网站调试报告
+============================================================
+
+目标URL: https://ydydj.univsport.com/level/Levelnotice
+页面长度: 856 字符
+
+JavaScript文件:
+  https://ydydj.univsport.com/level/assets/index-I-BbFchG.js
+
+CSS文件:
+  https://ydydj.univsport.com/level/assets/index-CL7uwsDc.css
+  https://ydydj.univsport.com/level/assets/Levelnotice-DTmK1Q0h.css
+
+API端点:
+
+页面内容前1000字符:
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="Version" content="1.0.0">
+  <link rel="icon" href="./favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>运动员技术等级查询</title>
+  <script type="module" crossorigin="" src="./assets/index-I-BbFchG.js"></script>
+  <link rel="stylesheet" crossorigin="" href="./assets/index-CL7uwsDc.css">
+<link rel="modulepreload" as="script" crossorigin="" href="https://ydydj.univsport.com/level/assets/Levelnotice-BMukahsN.js"><link rel="modulepreload" as="script" crossorigin="" href="https://ydydj.univsport.com/level/assets/_plugin-vue_export-helper-6hmHLSj-.js"><link rel="stylesheet" crossorigin="" href="https://ydydj.univsport.com/level/assets/Levelnotice-DTmK1Q0h.css"></head>
+
+<body>
+  <div id="app" data-v-app=""><!----></div>
+
+
+
+</body></html>
+
+...

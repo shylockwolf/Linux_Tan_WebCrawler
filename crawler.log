@@ -1,0 +1,56 @@
+爬虫日志 - 开始时间: 2025-10-28 09:11:57.639635
+============================================================
+[2025-10-28 09:11:57] ============================================================
+[2025-10-28 09:11:57] 最终版爬虫开始运行
+[2025-10-28 09:11:57] 目标网站: https://ydydj.univsport.com/level/Levelnotice
+[2025-10-28 09:11:57] ============================================================
+[2025-10-28 09:11:57] 
+尝试策略: 直接页面分析
+[2025-10-28 09:11:57] 获取第一层页面内容...
+[2025-10-28 09:12:03] 页面分析结果: {'has_app_container': False, 'has_scripts': False, 'has_forms': False, 'has_tables': False, 'link_count': 0, 'script_count': 1}
+[2025-10-28 09:12:03] 找到 0 个链接
+[2025-10-28 09:12:03] 策略 直接页面分析 未找到可下载文件
+[2025-10-28 09:12:05] 
+尝试策略: 深度链接探索
+[2025-10-28 09:12:05] 探索深度链接...
+[2025-10-28 09:12:05] 测试深度链接: https://ydydj.univsport.com/notice
+[2025-10-28 09:12:07] 测试深度链接: https://ydydj.univsport.com/download
+[2025-10-28 09:12:07] 测试深度链接: https://ydydj.univsport.com/file
+[2025-10-28 09:12:08] 测试深度链接: https://ydydj.univsport.com/document
+[2025-10-28 09:12:09] 测试深度链接: https://ydydj.univsport.com/pdf
+[2025-10-28 09:12:10] 测试深度链接: https://ydydj.univsport.com/doc
+[2025-10-28 09:12:11] 测试深度链接: https://ydydj.univsport.com/list
+[2025-10-28 09:12:12] 测试深度链接: https://ydydj.univsport.com/page
+[2025-10-28 09:12:13] 测试深度链接: https://ydydj.univsport.com/article
+[2025-10-28 09:12:14] 策略 深度链接探索 未找到可下载文件
+[2025-10-28 09:12:16] 
+尝试策略: API端点尝试
+[2025-10-28 09:12:16] 尝试API端点...
+[2025-10-28 09:12:16] 测试API端点: https://ydydj.univsport.com/api/
+[2025-10-28 09:12:16] 测试API端点: https://ydydj.univsport.com/data/
+[2025-10-28 09:12:17] 测试API端点: https://ydydj.univsport.com/json/
+[2025-10-28 09:12:17] 测试API端点: https://ydydj.univsport.com/ajax/
+[2025-10-28 09:12:18] 测试API端点: https://ydydj.univsport.com/v1/
+[2025-10-28 09:12:18] 测试API端点: https://ydydj.univsport.com/v2/
+[2025-10-28 09:12:18] 测试API端点: https://ydydj.univsport.com/rest/
+[2025-10-28 09:12:19] 测试API端点: https://ydydj.univsport.com/graphql
+[2025-10-28 09:12:19] 策略 API端点尝试 未找到可下载文件
+[2025-10-28 09:12:21] ============================================================
+[2025-10-28 09:12:21] 爬虫运行完成!
+[2025-10-28 09:12:21] 运行时间: 24.14 秒
+[2025-10-28 09:12:21] 总共下载: 0 个文件
+[2025-10-28 09:12:21] 文件保存: /home/shylock/CodeBuddy/Linux_Tan_WebCrawler/downloads
+[2025-10-28 09:12:21] 日志文件: crawler.log
+[2025-10-28 09:12:21] ============================================================
+[2025-10-28 09:12:21] 下载目录包含 0 个文件/目录
+2025-10-28 09:14:57,343 - INFO - ====== WebDriver manager ======
+2025-10-28 09:14:57,348 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-28 09:15:26,696 - INFO - ====== WebDriver manager ======
+2025-10-28 09:15:26,702 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-28 09:16:13,396 - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+2025-10-28 09:16:14,445 - INFO - Driver downloading response is 200
+2025-10-28 09:16:21,000 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-28 09:17:37,182 - INFO - Get LATEST chromedriver version for google-chrome
+2025-10-28 09:18:54,253 - INFO - Driver has been saved in cache [/home/shylock/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+2025-10-28 09:18:54,283 - ERROR - 浏览器驱动初始化失败: [Errno 8] Exec format error: '/home/shylock/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver'
+2025-10-28 09:18:54,284 - ERROR - 程序执行失败: [Errno 8] Exec format error: '/home/shylock/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver'

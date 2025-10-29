@@ -1,0 +1,24 @@
+2025-10-28 09:20:23,417 - INFO - 开始爬取SPA网站...
+2025-10-28 09:20:23,417 - INFO - === 分析SPA网站结构 ===
+2025-10-28 09:20:30,661 - INFO - 主页面已保存: spa_index.html
+2025-10-28 09:20:30,662 - INFO - 找到 1 个JavaScript文件
+2025-10-28 09:20:30,662 - INFO - 找到 0 个CSS文件
+2025-10-28 09:20:33,095 - INFO - === 发现API端点 ===
+2025-10-28 09:20:33,909 - INFO - ✓ 发现JSON API: https://ydydj.univsport.com/api/notices
+2025-10-28 09:20:33,912 - INFO -   API数据已保存: downloads/api_responses/_api_notices.json
+2025-10-28 09:20:33,912 - INFO -   API数据结构 - 键: ['code', 'msg']
+2025-10-28 09:20:35,078 - INFO - ✓ 发现JSON API: https://ydydj.univsport.com/api/levels
+2025-10-28 09:20:35,079 - INFO -   API数据已保存: downloads/api_responses/_api_levels.json
+2025-10-28 09:20:35,080 - INFO -   API数据结构 - 键: ['code', 'msg']
+2025-10-28 09:20:35,519 - INFO - ✓ 发现JSON API: https://ydydj.univsport.com/api/documents
+2025-10-28 09:20:35,520 - INFO -   API数据已保存: downloads/api_responses/_api_documents.json
+2025-10-28 09:20:35,520 - INFO -   API数据结构 - 键: ['code', 'msg']
+2025-10-28 09:20:49,423 - INFO - 共发现 3 个API端点
+2025-10-28 09:20:49,423 - INFO - === 处理API端点数据 ===
+2025-10-28 09:20:49,423 - INFO - 处理端点: https://ydydj.univsport.com/api/notices
+2025-10-28 09:20:50,988 - INFO - 未找到下载链接
+2025-10-28 09:20:50,988 - INFO - 处理端点: https://ydydj.univsport.com/api/levels
+2025-10-28 09:20:52,336 - INFO - 未找到下载链接
+2025-10-28 09:20:52,337 - INFO - 处理端点: https://ydydj.univsport.com/api/documents
+2025-10-28 09:20:52,808 - INFO - 未找到下载链接
+2025-10-28 09:20:52,809 - INFO - SPA网站爬取完成
